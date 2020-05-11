@@ -15,15 +15,8 @@
           <h2>TO DO LIST</h2>
   
           <input type="text" class="add-element" placeholder="inserisci un elemento">
-  
           <ul class="todo">
-            <li class="element">
-                <i>noi</i>
-                <span class="remove" data-id="2"><i class="fas fa-trash"></i></span>
-            </li>
-            <li class="element">Sleep<i class="fas fa-trash"></i></li>
-            <li class="element">Netflix<i class="fas fa-trash"></i></li>
-            <li class="element">Repeat<i class="fas fa-trash"></i></li>
+
           </ul>
   
   
@@ -41,7 +34,7 @@
      <script id="todo-template" type="text/x-handlebars-template">
         <li class="element">
             <i>{{text}}</i>
-            <span class="remove" data-id="{{id}}"><i class="remove fas fa-trash"></i></span>
+            <i class="remove fas fa-trash"data-id="{{id}}"></i>
         </li>
     </script>
 

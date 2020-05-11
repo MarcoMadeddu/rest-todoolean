@@ -8,7 +8,7 @@
 .app{
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 1000vh;
   background-image: linear-gradient(90deg, rgb(127, 122, 179) 0%, rgb(87, 81, 149) 50%, rgb(127, 122, 179) 100%);
 }
 
@@ -26,6 +26,10 @@
   font-weight: 300;
 }
 
+.main i{
+  margin: 20px 0;
+  font-size: 25px;
+}
 .add-element{
   width: 30%;
   padding: 10px;
